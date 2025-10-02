@@ -63,11 +63,7 @@ public class LevelCreator : EditorWindow
                 {
                     Instantiate(wallObjectPrefab, spawnedPrefab.transform); 
                 } 
-                //else
-                //{
-                //    spawnedPrefab = Instantiate(groundPrefab);
-                //}
-
+				
                 float x = TOP_LEFT_STARTING_POSITION_X + col * MOVE_DISTANCE_TO_NEXT_TILE_X; 
                 float y = TOP_LEFT_STARTING_POSITION_Y + row * MOVE_DISTANCE_TO_NEXT_TILE_Y;
 
